@@ -1,0 +1,530 @@
+if game.placeid -- 8737899170 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
+
+local Window = OrionLib:MakeWindow({Name = "🔥BEST PET SIM 99 SCRIPT🔥 ┃ MADE BY .POISON.", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--[[
+Name = <📜Swifts Hub📜> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Farm",
+	Icon = "rbxassetid://14976485216",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "Farm"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddToggle({
+	Name = "Auto farm",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Auto farm nearest",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+Tab:AddSlider({
+	Name = "Auto Farm Range",
+	Min = 0,
+	Max = 250,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Farm distance",
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the slider.
+Min = <number> - The minimal value of the slider.
+Max = <number> - The maxium value of the slider.
+Increment = <number> - How much the slider will change value when dragging.
+Default = <number> - The default value of the slider.
+ValueName = <string> - The text after the value number.
+Callback = <function> - The function of the slider.
+]]
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Auto collects Coins",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Auto claim gifts",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Auto collects Lootbags",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Find all Shiny relics",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+
+local Tab = Window:MakeTab({
+	Name = "Eggs",
+	Icon = "rbxassetid://14968277226",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "eggs"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddToggle({
+	Name = "Auto hatch best eggs ",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Auto open nearest eggs",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+
+Tab:AddToggle({
+	Name = "Fast Hatch 10x speed",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Fast hatch 100x speed",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Trade scams",
+	Icon = "rbxassetid://14968277226",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+Tab:AddToggle({
+	Name = "Booth sniper",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Booth scam",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Auction scam",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Trade scam",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Freeze trade",
+	Default = false,
+	Callback = function(Value)
+		
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Lag trade",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Bug pets",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Bug trade",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Bug Rap",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Freeze player screen",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Crash Player game",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Lag game",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/pet-sim-script/main/ps99%20script%20(2).lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Trolls",
+	Icon = "rbxassetid://14968277226",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+
+Tab:AddToggle({
+	Name = "Fling others",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Hide other players screen",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]Tab:AddToggle({
+	Name = "Big head others",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Control others",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddToggle({
+	Name = "Talk for other players",
+	Default = false,
+	Callback = function(Value)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "Dupe",
+	Icon = "rbxassetid://14968277226",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+Tab:AddButton({
+	Name = "Dupe your gems",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Dupe your pets",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Dupe your huges",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/14poisoned/Pet-sim-99-script/main/ps99%20script.lua'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+OrionLib:Init()
